@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+.home{
+    background-color: #050505;
+    vertical-align:center
+}
+  
+.home .blurredBox{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.25em;
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:40%;
+    height:70%;
+    padding:5% 0;
+}
+
+.home .blurredBox>:first-child{
+    width:230px;
+    height:230px;
+    box-shadow: 1px 1px 3px rgb(0,0,0,.5);
+}
+.home .blurredBox .myName{
+    font-size: 2rem;
+}
+.home .blurredBox .greeting{
+    color:white;
+    font-size: 1.5rem;
+}
+.home .blurredBox .skillHead{
+    color:white;
+    font-size: 1.5rem;
+}
+.home .blurredBox .skillHead .skills{
+    color:#c40866;
+}
+  
+  
