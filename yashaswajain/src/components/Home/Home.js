@@ -6,7 +6,7 @@ import img from './../../images/programmer.jpeg'
 function Home() {
     const textRef=useRef()
     useEffect(()=>{
-        init(textRef.current, { showCursor: false, strings: ['Frontend Developer', 'Backend Developer','Logo Designer','Photo Editor' ] })
+        init(textRef.current, { showCursor: false, strings: ['Frontend Developer', 'Backend Developer','Logo Designer','T-shirt Designer' ] })
     },[])
     return (
         <div className="home" id="home">

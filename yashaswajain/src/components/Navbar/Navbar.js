@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import MenuIcon from '@material-ui/icons/Menu'
 function Navbar() {
     return (
         <div className="navbar">
@@ -20,6 +21,7 @@ function Navbar() {
             <li><a href="#work">.work()</a></li>
             <li><a href="#contact">.contact()</a></li>
         </ul>
+        <button className="hamburger"><MenuIcon></MenuIcon></button>
         </div>
     )
 }

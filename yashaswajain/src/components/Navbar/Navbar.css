@@ -11,7 +11,7 @@
     font-family: 'Montserrat', sans-serif;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color:black;
     border-bottom: 1px solid rgb(0,0,0,.3);
@@ -21,7 +21,7 @@
     height:inherit;
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
     cursor: pointer;
 }
 .navbar .leftNavbar>*{
@@ -30,6 +30,7 @@
     cursor: pointer;
     text-decoration: none;
 }
+
 .navbar .leftNavbar .whiteleftNavbar{
     color:white;
 }
@@ -63,4 +64,26 @@
 }
 .navbar .listItems li a:hover{
     color:#c40866;
+}
+
+.navbar .hamburger{
+    display:none;
+    color:#c40866;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+@media screen and (max-width:830px){
+    .navbar .leftNavbar{
+        margin-left: 30px;
+    }
+    .navbar .hamburger{
+        display:block;
+        margin:0px 20px;
+    }
+    .navbar .listItems{
+        display:none;
+    }
+
 }
