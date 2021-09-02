@@ -10,7 +10,7 @@ import l2 from './../../Portfolio material/Logo/l2.png'
 import l3 from './../../Portfolio material/Logo/l3.png'
 import l4 from './../../Portfolio material/Logo/l4.png'
 import l5 from './../../Portfolio material/Logo/l5.png'
-
+import Card from './ProjectCard'
 function Work() {
     const changeContainer=(name)=>{
     console.log("HI")
@@ -45,6 +45,10 @@ function Work() {
             </div>
 
             <div className="projectContainer">
+             <Card title="" live="" code="" image=""></Card>
+             <Card title="" live="" code="" image=""></Card>
+             <Card title="" live="" code="" image=""></Card>
+             <Card title="" live="" code="" image=""></Card>
             </div>
             <div className="logoContainer">
             <img src={l1}></img>

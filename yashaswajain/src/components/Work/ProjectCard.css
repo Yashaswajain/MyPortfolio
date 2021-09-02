@@ -1,0 +1,12 @@
+.projectCard{
+    width:25%;
+    height:60%;
+    margin:0px 50px;
+    border-radius: 10%;
+    cursor: pointer;
+    box-shadow:1px 1px 4px black;
+    transition:all .5s;
+}
+.projectCard:hover{
+transform:scale(120%);
+}
