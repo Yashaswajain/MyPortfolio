@@ -1,3 +1,10 @@
 .about{
-    background:#f4c20d
+    background:url(https://user-images.githubusercontent.com/24233321/74650784-71927280-51a8-11ea-8ce8-5eb41e225960.png);
+    
+}
+
+@media screen and (max-width:720px){
+    .about{
+        background-size: contain;
+    }
 }

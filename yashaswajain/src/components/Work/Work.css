@@ -7,14 +7,13 @@
     justify-content:space-between;
 }
 .work .switchButtons{
-    margin-top:30px;
+    margin-top:20px;
     width:70%;
     display:flex;
     flex-direction: row;
     align-items: center ;
     justify-content:space-evenly;
     height:10%;
-    
 }
 .work .switchButtons .projects{
     border-color:blue;
@@ -81,30 +80,22 @@ transform: scale(120%);
 }
 .work .projectContainer{
     width:100%;
-    height:80%;
+    height:85%;
     display:flex;
     flex-direction:row;
-   align-items: center ;
+    align-items:center;
+    justify-content:center;
+}
+.work .projectContainer .upper{
+    height:80%;
+    margin:10px 0px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    align-items: center ;
+    justify-content:space-around;
 }
 
-.work .projectContainer .resumeLink{
-    text-decoration: none;
-    border:1px solid #c40866;
-    width:120px;
-    height:60px;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content:center;
-    color:black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    transition:all .5s;
-}
-.work .projectContainer .resumeLink:hover{
-    background-color: #c40866;
-    color:white;
-}
 @media screen and (max-width:720px){
     .work .switchButtons{
         width:90%;
@@ -135,6 +126,15 @@ transform: scale(120%);
     }
     .work .tsContainer>*:hover{
         transform: scale(200%);
+    }
+    .work .projectContainer{
+        height:100%;
+        overflow: hidden;
+    }
+    .work .projectContainer .upper{
+     flex-direction:column;
+     overflow: hidden;
+     height:100%;
     }
 }
 

@@ -10,6 +10,7 @@ import l2 from './../../Portfolio material/Logo/l2.png'
 import l3 from './../../Portfolio material/Logo/l3.png'
 import l4 from './../../Portfolio material/Logo/l4.png'
 import l5 from './../../Portfolio material/Logo/l5.png'
+import sortingVisual from './../../images/sortingVisual.PNG'
 import Card from './ProjectCard'
 function Work() {
     const changeContainer=(name)=>{
@@ -45,10 +46,16 @@ function Work() {
             </div>
 
             <div className="projectContainer">
-             <Card title="" live="" code="" image=""></Card>
-             <Card title="" live="" code="" image=""></Card>
-             <Card title="" live="" code="" image=""></Card>
-             <Card title="" live="" code="" image=""></Card>
+            <div className="upper">
+            <Card title="Sorting Visualizer" live="https://a3dwotnnjmqvyqlxs80olq-on.drv.tw/sorting_visualizer-/show.html" 
+            code="github.com/Yashaswajain/sorting_visualizer-" image={sortingVisual}></Card>
+            <Card title="Instagram Clone" live="" 
+            code="" image="https://user-images.githubusercontent.com/44711728/125775477-09957a30-6ad5-439b-a058-dbe2213f4418.PNG"></Card>
+            <Card title="Covid-19 Tracker" live="" 
+            code="" image="https://user-images.githubusercontent.com/44711728/118501035-f66e9200-b745-11eb-8cf9-83d8f24b4b22.PNG"></Card>
+            <Card title="Google Keep Clone" live="https://a3dwotnnjmqvyqlxs80olq-on.drv.tw/GOOGLE%20KEEP%20CLONE/" 
+            code="https://github.com/Yashaswajain/GOOGLE-KEEP-CLONE" image="https://user-images.githubusercontent.com/44711728/120516533-1ad89880-c3ed-11eb-9b50-d8bf1db81653.PNG"></Card>
+            </div>
             </div>
             <div className="logoContainer">
             <img src={l1}></img>
