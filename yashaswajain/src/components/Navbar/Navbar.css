@@ -28,13 +28,24 @@
     font-size: 2rem;
     font-weight: 600;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .navbar .leftNavbar .whiteleftNavbar{
     color:white;
 }
 .navbar .leftNavbar .pinkleftNavbar{
+    color:#c40866;
+}
+.navbar .leftNavbar .resume{
+    font-size: 1rem;
+    text-decoration: none;
+    color:white;
+    margin:0px 15px;
+    position:relative;
+    top:3px;
+    transition:all .5s;
+}
+.navbar .leftNavbar .resume:hover{
     color:#c40866;
 }
 
@@ -72,6 +83,8 @@
     background:none;
     border:none;
     cursor:pointer;
+    position:relative;
+    top:4px;
 }
 
 @media screen and (max-width:830px){
@@ -84,6 +97,9 @@
     }
     .navbar .listItems{
         display:none;
+    }
+    .navbar .leftNavbar .resume{
+        font-size:.6rem;
     }
 
 }

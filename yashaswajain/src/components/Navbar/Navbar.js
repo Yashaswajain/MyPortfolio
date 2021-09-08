@@ -14,6 +14,8 @@ function Navbar() {
             <span className="pinkleftNavbar">l</span>
             <span className="pinkleftNavbar">i</span>
             <span className="pinkleftNavbar">o</span>
+            <a href="https://drive.google.com/file/d/1F1q0grPu4oL6p3IVqJU_px65LR-GE8OM/view?usp=sharing"
+            className="resume" target="_blank">Resume</a>
         </div>
         <ul className="listItems">
             <li><a href="#home">.home()</a></li>

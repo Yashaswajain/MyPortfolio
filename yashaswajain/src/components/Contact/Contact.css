@@ -130,4 +130,8 @@
     .contact .leftContact .socialIcons{
         margin:0px 0px;
     }
+    .contact .leftContact .socialIcons>*{
+        width:40px;
+        height:40px;
+    }
 }

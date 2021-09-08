@@ -29,6 +29,7 @@ function Home() {
                     <span style={{color:"#4885ed"}}>n</span>
                 </span>
                 <h1 className="skillHead">I am a <span ref={textRef} className="skills"></span></h1>
+                <h1 className="interests"><span style={{color:"#034efc"}}>const</span> <span style={{color:"#67b0f5"}}>my_interests</span> = [<span style={{color:"#99421a"}}> "Travelling" , "Singing" , "Guitar" , "Book Reading" , "Stocks" </span>]</h1>
             </div>
         </div>
     )
